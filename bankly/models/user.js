@@ -145,7 +145,7 @@ class User {
     return user;
   }
 
-  /** Delete user. Returns true.
+  /** Delete user. 
    *
    * If user cannot be found, should raise a 404.
    *
@@ -162,7 +162,6 @@ class User {
       throw new ExpressError('No such user', 404);
     }
 
-    return true;
   }
 }
 
